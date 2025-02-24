@@ -1,0 +1,97 @@
+body{
+    justify-content: center;
+    align-items: center;
+    background-color: steelblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.wraper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.h1{
+    font-weight: 50;
+
+   
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    /* background-color: rgba(70, 131, 180, 0.493); */
+    border-radius: 2em;
+    /* border-top: solid steelblue 1px; */
+}
+.arrow{
+    height: 30px;
+    width: 40px;
+    top: 1em;
+    
+  }
+.logo-img{
+    height: 3em;
+    width: 3em;
+    border-radius: 2em;
+}
+
+#login_form{
+    padding: 1em;
+    
+    width: fit-content;
+    background-color: #1782c5a9;
+    background-color: #d6d6d6;
+    border-radius: 5px;
+    box-shadow: 0 0 16px rgb(88, 88, 88);
+    margin-top: 3em;
+    row-gap: 1em;
+ } 
+#login_form a{
+    color: rgb(59, 59, 59);
+}
+.menu{
+    width: 4em;
+    height: fit-content;
+}
+.menu .arrow{
+    height: 2em;
+    width: 3em;
+}
+#login_form a:hover{
+    color: steelblue;
+    font-size: 18px;
+}
+#email_part input,#password_part input{
+    width: 100%;
+    border-radius: 11px;
+    outline: none;
+    border: none;
+    text-align: center;
+    height: 1.3em;
+  
+    box-shadow: inset 0px 0px 3px rgb(78, 78, 78);
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+#form_bottom{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+form #submit{ 
+    padding: 0.3em 1em;
+    border-radius: 11px;
+    border: none;
+    background-color: #1782c5ad;
+    box-shadow:2px 2px 3px rgb(78, 78, 78);
+    color: whitesmoke;
+    width: 30%;
+    justify-self: center;
+    margin-bottom: 1em;
+    cursor: pointer;
+}
